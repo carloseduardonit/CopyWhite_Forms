@@ -1,0 +1,1 @@
+SELECT * FROM detran.condutor, detran.entregar,detran.cnh where condutor.idCondutor  like "2" and entregar.idCondutor like "2" and cnh.idCondutor =2;
